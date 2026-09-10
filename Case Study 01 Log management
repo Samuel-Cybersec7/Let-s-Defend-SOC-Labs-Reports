@@ -1,0 +1,32 @@
+Case Study 01: Log Management Tutorial
+Platform: Let's Defend | Username: Koketso007  
+Date:10 September 2026
+
+1. Objective
+Practice log analysis and event correlation in a simulated SIEM environment.
+Learned how to identify source/destination IPs, ports, and suspicious URLs in lo
+
+2. Tools Used
+- Let's Defend SIEM Dashboard
+- Log Filtering and Search
+- Event Analysis
+
+3. Key Findings from Lab
+Analyzed 2577 events and identified:
+- Internal IP: 172.16.17.14 communicating to external IP 198.100.45.154 on port 80
+- Suspicious request to: `http://ip-api.com/json/0`
+- Google search queries and GitHub access from internal network
+- Blocked firewall event on port 21
+
+4. Skills Gained
+- Log filtering with `source_address`, `destination_port`, `raw_log`
+- Identifying internal vs external IPs
+- Understanding HTTP GET requests and firewall logs
+
+5. Evidence
+![Log Management Screenshot 1](screenshots/log-analysis.png)
+![Completion Screenshot](screenshots/completion.png)
+
+6. Conclusion
+Successfully completed Log Management tutorial. Gained hands-on experience 
+with SIEM log review and alert triage - core SOC L1 responsibilities.
